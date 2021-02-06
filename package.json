@@ -1,0 +1,27 @@
+{
+  "name": "nob0ody_bot",
+  "version": "1.0.0",
+  "description": "nobo0dy_'s twitch chat bot. Check out the stream twitch.tv/nobo0dy_ ",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mongo": "^0.1.0",
+    "requests": "^0.3.0",
+    "tmi.js": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertharrell/nob0ody_bot.git"
+  },
+  "author": "Albert Harrell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertharrell/nob0ody_bot/issues"
+  },
+  "homepage": "https://github.com/albertharrell/nob0ody_bot#readme"
+}
