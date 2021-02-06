@@ -4,6 +4,7 @@
   "description": "nobo0dy_'s twitch chat bot. Check out the stream twitch.tv/nobo0dy_ ",
   "main": "app.js",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "mongo": "^0.1.0",
     "requests": "^0.3.0",

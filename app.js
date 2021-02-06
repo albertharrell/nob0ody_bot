@@ -190,10 +190,10 @@ async function getRankHandler(channel, userstate, initmsg) {
     .catch(e => console.log(e));
 }
 
-function getOPGGHandler(channel, userstate, msg) {
+function getOPGGHandler(channel, userstate, messages) {
   const username = msg.split(" ")[1];
   const region = opts.region;
-  const msg = `@${userstate.username}, https://${region}.op.gg/summoner/userName=${username}`;
+  const messsages = `@${userstate.username}, https://${region}.op.gg/summoner/userName=${username}`;
   client
     .say(channel, msg)
     .then(channel => console.log(channel))
